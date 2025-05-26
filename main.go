@@ -1,9 +1,10 @@
 package main
 
 import (
-	"github.com/brettbeloin/l3/avl"
+	"github.com/bbeloin/l3/Avl"
 )
 
 func main() {
+	avl := Avl.NewTree[int]()
 
 }
